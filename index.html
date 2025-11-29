@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Milanraj — Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- html2pdf -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+  <!-- JS -->
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="index.html">Milanraj</a>
+    <div class="nav-links">
+      <a href="index.html">Resume</a>
+      <a href="biodata.html">Bio-data</a>
+      <button class="btn small" id="downloadPdfBtn">Download PDF</button>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <article class="page" id="resume">
+
+    <div class="header">
+      <div class="left-head">
+        <div class="avatar">M</div>
+        <div class="title-block">
+          <div class="name">Milanraj</div>
+          <div class="role">Computer Science Engineering student — AI/ML · Web Development · UI/UX · IoT</div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div>Udupi, India</div>
+        <div>+91 6362672142</div>
+        <div>milanraj.23cs071@sode-edu.in</div>
+        <div>milanraj616@gmail.com</div>
+        <div class="links-inline">
+          <a href="https://www.linkedin.com/in/milan-raj-5a6a9928b" target="_blank"><i class="fab fa-linkedin"></i><span class="social-text">LinkedIn</span></a>
+          <a href="https://github.com/milanraj-github" target="_blank"><i class="fab fa-github"></i><span class="social-text">GitHub</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <aside class="col-left">
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-user"></i><span>Summary</span></div>
+          <p class="lead">
+            Highly motivated Computer Science Engineering student (3rd year) specializing in AI/ML, Web Development, UI/UX, and IoT development. Experienced in building real-world solutions through national-level hackathons, including ML-driven systems, full-stack applications, and Arduino-powered prototypes. Developed an Arduino-based Smart Medicine Pill Dispenser. Seeking an internship in Software Development, Web Development, Machine Learning, or IoT.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-chart-simple"></i><span>Skills</span></div>
+          <div class="skill-list">
+            <span class="skill">Python</span><span class="skill">Java</span><span class="skill">C / C++</span>
+            <span class="skill">JavaScript</span><span class="skill">HTML</span><span class="skill">CSS</span>
+            <span class="skill">React.js</span><span class="skill">Node.js</span><span class="skill">Firebase</span>
+            <span class="skill">MySQL</span><span class="skill">MongoDB</span><span class="skill">GitHub</span>
+            <span class="skill">VS Code</span><span class="skill">Figma</span><span class="skill">Arduino</span>
+            <span class="skill">AI / ML</span><span class="skill">UI/UX</span><span class="skill">IoT Systems</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-award"></i><span>Certifications</span></div>
+          <ul class="small-list">
+            <li>Hackothsava 2K25 (SMVITM)</li>
+            <li>AIINNOVATION Hackathon (NMAMIT)</li>
+            <li>Nexathon (Shridevi Institute of Technology)</li>
+          </ul>
+        </section>
+
+        <section class="section contact-section">
+          <div class="section-title"><i class="fa-solid fa-location-dot"></i><span>Contact</span></div>
+          <ul class="info-list">
+            <li><i class="fa-solid fa-phone"></i> <span>+91 6362672142</span></li>
+            <li><i class="fa-solid fa-envelope"></i> <span>milanraj.23cs071@sode-edu.in</span></li>
+            <li><i class="fa-solid fa-map-marker-alt"></i> <span>Udupi, India</span></li>
+            <li><i class="fab fa-linkedin"></i> <span><a href="https://www.linkedin.com/in/milan-raj-5a6a9928b" target="_blank">linkedin.com/in/milan-raj-5a6a9928b</a></span></li>
+            <li><i class="fab fa-github"></i> <span><a href="https://github.com/milanraj-github" target="_blank">github.com/milanraj-github</a></span></li>
+          </ul>
+        </section>
+      </aside>
+
+      <section class="col-right">
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></div>
+          <div class="item">
+            <h4>B.E. in Computer Science and Engineering</h4>
+            <div class="meta">SMVITM, Udupi — Currently in 3rd year</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-briefcase"></i><span>Projects</span></div>
+
+          <div class="item">
+            <h4>Smart Medicine Pill Dispenser</h4>
+            <div class="meta">Hardware / IoT</div>
+            <ul class="bullets">
+              <li>Automated Arduino-based dispenser with sensors and timing modules.</li>
+              <li>Improves medication management with alerts and dosage automation.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h4>TruthLens — Fake Media Detection System</h4>
+            <div class="meta">NLP & ML — AIINNOVATION Hackathon (NMAMIT)</div>
+            <ul class="bullets">
+              <li>Developed NLP & ML platform to detect fake or manipulated news.</li>
+              <li>Built during AIINNOVATION Hackathon with Kyndryl & Microsoft.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h4>ApnaParivar — Family Tree Web App</h4>
+            <div class="meta">React.js + Firebase — Hackothsava 2K25 (SMVITM)</div>
+            <ul class="bullets">
+              <li>Built with React.js + Firebase and Google Sign-In authentication.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h4>SynapCardia — Heart & Brain Health Monitoring</h4>
+            <div class="meta">Machine Learning — Nexathon</div>
+            <ul class="bullets">
+              <li>Engineered ML model to predict cardiac and neural abnormalities.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h4>Mangalore Airport Terminal Tracking App</h4>
+            <div class="meta">Mobile / GPS — MIT App Inventor</div>
+            <ul class="bullets">
+              <li>Developed for GPS-based tracking and real-time terminal updates.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h4>University Management System</h4>
+            <div class="meta">Academic Project</div>
+            <ul class="bullets">
+              <li>Developed during project phase (university coursework).</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-flag-checkered"></i><span>Hackathons</span></div>
+          <ul class="small-list">
+            <li>Hackothsava 2K25 — SMVITM | ApnaParivar</li>
+            <li>AIINNOVATION Hackathon — NMAMIT | TruthLens</li>
+            <li>Nexathon — Shridevi Institute of Technology | SynapCardia</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><i class="fa-solid fa-bullseye"></i><span>Internship Goal</span></div>
+          <p class="lead">Actively seeking an internship in AI/ML, Web Development, Software Development, or IoT/Embedded Systems.</p>
+        </section>
+      </section>
+    </div>
+
+  </article>
+</main>
+
+<footer class="site-footer">© <span id="year"></span> Milanraj</footer>
+
+</body>
+</html>
